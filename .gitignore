@@ -1,0 +1,6 @@
+env
+__pycache__
+crud/models/__pycache__
+crud/routes/__pycache__
+crud/schemas/__pycache__
+/config/__pycache__
