@@ -10,4 +10,6 @@ app = FastAPI(
     title="TEST FASTPI - MONGODB",
     description="Prueba para usar el framework de fastApi")
 
-app.include_router(user)
+
+# TODO: AÑADIR PREFIJO A LAS RUTAS
+app.include_router(prefix="/api", router=user)
